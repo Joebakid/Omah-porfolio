@@ -22,7 +22,7 @@ body {
   font-family: "Source Sans 3", sans-serif;
   color: var(--primary-font-color);
   background-color: rgb(33, 43, 43);
-  height: 1000px;
+  /* height: 1000px; */
 
   /* line-height: 300%; */
 }
