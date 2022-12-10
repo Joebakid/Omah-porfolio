@@ -56,6 +56,7 @@ a {
   display: flex;
   color: white;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
   /* font-family: "Source Sans 3", sans-serif; */
 }
 
@@ -82,6 +83,10 @@ ul {
   justify-content: center;
   flex-direction: column;
   font-weight: bold;
+}
+
+.showcase-p {
+  margin-bottom: 20px;
 }
 
 .title-two {
@@ -112,8 +117,8 @@ ul {
 
 .btn-about {
   background: transparent;
-  padding: 3px 10px;
-  margin: 30px 0;
+  /* padding: 3px 10px; */
+  /* margin: 30px 0; */
   cursor: pointer;
   transition: all 0.5s ease-in-out;
   border-color: black;
@@ -122,6 +127,32 @@ ul {
   font-size: larger;
   display: flex;
   align-items: center;
+  padding: 5px 10px;
+}
+
+.frequent {
+  margin-bottom: 20px;
+}
+
+.FAQ {
+  margin-top: 70px;
+}
+
+.FAQ-div {
+  margin-bottom: 50px;
+}
+
+.FAQ-div h2 {
+  color: #44a08d;
+}
+
+.team-chat {
+  text-decoration: underline;
+}
+
+.btn-about-link {
+  display: flex;
+  max-width: 80%;
 }
 
 .font-color {
@@ -129,7 +160,7 @@ ul {
 }
 
 p {
-  line-height: 2;
+  line-height: 1.5;
 }
 
 .current {
@@ -154,7 +185,7 @@ section h2 {
   padding: 0 0 50px 0;
 }
 
-@keyframes load {
+/* @keyframes load {
   0%,
   100% {
     margin-left: 20px;
@@ -162,7 +193,7 @@ section h2 {
   50% {
     margin-left: 10px;
   }
-}
+} */
 
 .btn-about:hover {
   background-color: rgb(6, 97, 97);
