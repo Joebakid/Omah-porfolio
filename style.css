@@ -68,7 +68,7 @@ ul {
   justify-content: flex-end;
   flex-direction: column;
   align-items: flex-end;
-  gap: 5px;
+  gap: 10px;
 }
 
 .showcase-intro p {
