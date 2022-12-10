@@ -147,6 +147,10 @@ ul {
   color: #44a08d;
 }
 
+.social {
+  color: #44a08d;
+}
+
 .team-chat {
   text-decoration: underline;
 }
@@ -198,7 +202,7 @@ section h2 {
 } */
 
 .btn-about:hover {
-  background-color: rgb(6, 97, 97);
+  background-color: #44a08d;
 }
 
 .offer {
