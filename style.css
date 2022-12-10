@@ -126,6 +126,10 @@ ul {
   align-items: center;
 }
 
+.font-color {
+  color: white;
+}
+
 p {
   line-height: 2;
 }
