@@ -100,7 +100,7 @@ ul {
 .title {
   font-size: 3em;
   letter-spacing: 0.1rem;
-  letter-spacing: -5px;
+  letter-spacing: 3px;
 }
 
 .copy {
