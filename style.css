@@ -154,6 +154,7 @@ ul {
 .btn-about-link {
   display: flex;
   max-width: 80%;
+  margin-bottom: 20px;
 }
 
 .font-color {
