@@ -76,7 +76,7 @@ ul {
 
 .showcase {
   /* padding-top: 30px; */
-  margin: 150px 0;
+  margin-top: 150px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -97,7 +97,7 @@ ul {
 }
 
 .title {
-  font-size: 4em;
+  font-size: 3em;
   letter-spacing: 0.1rem;
   letter-spacing: -5px;
 }
@@ -113,8 +113,8 @@ ul {
 
 .btn-about {
   background: transparent;
-  padding: 10px 20px;
-  margin-top: 30px;
+  padding: 3px 10px;
+  margin: 30px 0;
   cursor: pointer;
   transition: all 0.5s ease-in-out;
   border-color: black;
@@ -130,8 +130,6 @@ p {
 }
 
 .current {
-  border-bottom: 2px solid black;
-  padding: 5px 10px;
 }
 
 .icon-arrow {
@@ -146,6 +144,11 @@ section {
 
 section h2 {
   padding-bottom: 20px;
+}
+
+.about {
+  font-size: 2.5rem;
+  padding: 0 0 50px 0;
 }
 
 @keyframes load {
@@ -169,6 +172,10 @@ section h2 {
 /* *********************** */
 /* ANIMATION */
 
+a {
+  transition: all 0.5s ease-in-out;
+}
+
 .showcase {
   animation: transitionIn 1s;
 }
@@ -189,6 +196,23 @@ section h2 {
   .container {
     width: 60%;
     margin: 0 auto;
+  }
+
+  .title {
+    font-size: 5em;
+    letter-spacing: 0.1rem;
+    letter-spacing: -5px;
+  }
+
+  .about {
+    font-size: 4rem;
+  }
+
+  .showcase-intro p {
+  }
+
+  .hi {
+    font-size: 2rem;
   }
 
   header {
