@@ -127,6 +127,7 @@ a:hover {
   transition: all 0.5s ease-in-out;
   border-color: black;
   /* border: none; */
+  width: 100%;
   font-family: inherit;
   font-size: larger;
   display: flex;
@@ -162,6 +163,11 @@ a:hover {
   display: flex;
   max-width: 80%;
   margin-bottom: 20px;
+  width: 9.2rem;
+}
+
+.aa {
+  width: 8rem;
 }
 
 .font-color {
