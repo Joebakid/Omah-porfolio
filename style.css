@@ -205,6 +205,10 @@ section h2 {
   background-color: #44a08d;
 }
 
+s {
+  transition: all 4s;
+}
+
 .offer {
   line-height: -5px;
 }
@@ -218,6 +222,14 @@ a {
 
 .showcase {
   animation: transitionIn 1s;
+}
+
+.social {
+  transition: all 0.5s ease-in-out;
+}
+
+.social:hover {
+  color: white;
 }
 
 @keyframes transitionIn {
