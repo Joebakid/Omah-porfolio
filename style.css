@@ -72,6 +72,9 @@ ul {
   align-items: flex-end;
   gap: 10px;
 }
+a:hover {
+  color: #44a08d;
+}
 
 .showcase-intro p {
   line-height: 2;
