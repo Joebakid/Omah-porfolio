@@ -96,7 +96,7 @@ a:hover {
 
 .showcase {
   /* padding-top: 30px; */
-  margin-top: 100px;
+  /* margin-top: 100px; */
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -329,11 +329,11 @@ a {
   }
 
   .container {
-    padding-bottom: 50px;
+    padding-bottom: 20px;
   }
 
   .showcase {
-    padding-bottom: 50px;
+    /* padding-bottom: 50px; */
   }
 
   .socials {
