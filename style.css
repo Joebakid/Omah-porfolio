@@ -17,26 +17,38 @@
 .container {
   width: 85%;
   margin: 0 auto;
+  position: relative;
 }
 
 body {
   font-family: "Signika", sans-serif;
   color: var(--primary-font-color);
-  background-color: rgb(33, 43, 43);
-  /* height: 1000px; */
+  /* background-color: rgb(3, 63, 63); */
+  /* background-color: #fff; */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-image: url("wave-haikei.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 950px;
 
   /* line-height: 300%; */
 }
+
+/* COLOR */
 
 /* ****************************** */
 /* NAVIGATION */
 /* ****************************** */
 
 header {
+  /* padding-bottom: 400px; */
 }
 
 nav {
   margin: 20px 0;
+
   display: flex;
   justify-content: space-between;
   position: fixed;
@@ -45,6 +57,11 @@ nav {
   right: 10%;
   /* background-color: inherit !important; */
   /* height: 100vh; */
+}
+
+.place {
+  /* margin: -1000px 0; */
+  padding: 10px 0;
 }
 
 .miss {
@@ -163,7 +180,7 @@ a:hover {
   display: flex;
   max-width: 80%;
   margin-bottom: 20px;
-  width: 9.2rem;
+  width: 10rem;
 }
 
 .aa {
