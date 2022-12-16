@@ -31,7 +31,7 @@ body {
   background-image: url("wave-haikei.svg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 950px;
+  /* height: 950px; */
 
   /* line-height: 300%; */
 }
