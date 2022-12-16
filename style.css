@@ -48,10 +48,10 @@ header {
 
 nav {
   margin: 20px 0;
-
+  position: sticky;
   display: flex;
   justify-content: space-between;
-  position: fixed;
+  /* position: fixed; */
   left: 10%;
   top: 5px;
   right: 10%;
