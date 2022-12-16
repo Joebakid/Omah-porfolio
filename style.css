@@ -25,14 +25,14 @@ body {
   color: var(--primary-font-color);
   /* background-color: rgb(3, 63, 63); */
   /* background-color: #fff; */
-  position: relative;
+  /* position: relative; */
   display: flex;
   flex-direction: column;
   background-image: url("wave-haikei.svg");
-  height: 100%;
-  background-repeat: no-repeat;
+  /* height: 100%; */
+  /* background-repeat: no-repeat; */
   background-size: cover;
-
+  gap: 2rem;
   /* height: 950px; */
 
   /* line-height: 300%; */
@@ -320,23 +320,5 @@ a {
   .showcase img {
     width: 50%;
     border-radius: 15px;
-  }
-}
-
-@media screen and (max-width: 430px) {
-  .btn-about-link {
-    /* margin-bottom: 100px; */
-  }
-
-  .container {
-    padding-bottom: 20px;
-  }
-
-  .showcase {
-    /* padding-bottom: 50px; */
-  }
-
-  .socials {
-    /* padding-bottom: 100px; */
   }
 }
