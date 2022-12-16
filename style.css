@@ -29,8 +29,10 @@ body {
   display: flex;
   flex-direction: column;
   background-image: url("wave-haikei.svg");
+  height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
+
   /* height: 950px; */
 
   /* line-height: 300%; */
@@ -178,6 +180,13 @@ a:hover {
   width: 10rem;
 }
 
+.btn-about-links {
+  display: flex;
+  max-width: 80%;
+  margin-bottom: 20px;
+  width: 10rem;
+}
+
 .aa {
   width: 8rem;
 }
@@ -309,5 +318,15 @@ a {
   .showcase img {
     width: 50%;
     border-radius: 15px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .btn-about-link {
+    margin-bottom: 200px;
+  }
+
+  .socials {
+    padding-bottom: 300px;
   }
 }
