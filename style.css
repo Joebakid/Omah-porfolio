@@ -265,6 +265,38 @@ a {
   color: white;
 }
 
+/* card */
+.card {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  flex-direction: column;
+}
+.card p {
+  font-size: 13px;
+  color: rgb(228, 215, 215);
+  /* padding: 10px 0; */
+}
+
+.img-container {
+  width: 100%;
+}
+
+.img-container img {
+  width: 100%;
+}
+
+.story {
+  width: 100%;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+}
+
+/* **************** */
+
 @keyframes transitionIn {
   from {
     opacity: 0;
@@ -320,5 +352,24 @@ a {
   .showcase img {
     width: 50%;
     border-radius: 15px;
+  }
+
+  .story {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* gap: 100px; */
+  }
+
+  .card h3 {
+    font-size: 2rem;
+  }
+
+  .card p {
+    font-size: 1rem;
+  }
+
+  .card img {
+    width: 100%;
   }
 }
