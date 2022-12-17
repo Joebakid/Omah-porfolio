@@ -273,6 +273,7 @@ a {
   gap: 20px;
   padding: 20px;
   flex-direction: column;
+  margin-bottom: 30px;
 }
 .card p {
   font-size: 13px;
