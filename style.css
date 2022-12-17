@@ -295,6 +295,19 @@ a {
   flex-direction: column;
 }
 
+/* STORY */
+.img-container-2 {
+  width: 80%;
+}
+
+.img-container-2 img {
+  width: 100%;
+}
+
+.story-lines {
+  line-height: 2;
+}
+
 /* **************** */
 
 @keyframes transitionIn {
@@ -359,6 +372,10 @@ a {
     flex-direction: column;
     justify-content: space-around;
     /* gap: 100px; */
+  }
+
+  .card {
+    width: 70%;
   }
 
   .card h3 {
