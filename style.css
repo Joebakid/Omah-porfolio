@@ -311,6 +311,27 @@ a {
 
 /* **************** */
 
+/* LIST FOR PROGRAM */
+.ordered-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.ordered-list li {
+  list-style-type: disc;
+}
+
+.number-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.number-list li {
+  list-style-type: decimal;
+}
+
 @keyframes transitionIn {
   from {
     opacity: 0;
